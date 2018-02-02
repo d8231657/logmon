@@ -13,9 +13,6 @@ object Form1: TForm1
   OldCreateOrder = False
   OnClose = FormClose
   OnShow = FormShow
-  DesignSize = (
-    862
-    609)
   PixelsPerInch = 96
   TextHeight = 13
   object Edit1: TEdit
@@ -33,7 +30,7 @@ object Form1: TForm1
     Width = 97
     Height = 17
     Anchors = [akTop, akRight]
-    Caption = #30435#35222#27169#24335
+    Caption = '監視模式'
     TabOrder = 1
     OnClick = CheckBox1Click
   end
@@ -68,7 +65,7 @@ object Form1: TForm1
     Top = 8
     Width = 75
     Height = 25
-    Caption = #21034#38500#27284#26696
+    Caption = '刪除檔案'
     TabOrder = 4
     OnClick = Button1Click
   end

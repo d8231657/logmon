@@ -20,8 +20,8 @@ __published:	// IDE-managed Components
     TTimer *Timer1;
     TMemo *Memo1;
     TButton *Button1;
-        TFontDialog *FontDialog1;
-        TButton *Button2;
+    TFontDialog *FontDialog1;
+    TButton *Button2;
     void __fastcall Edit1Change(TObject *Sender);
     void __fastcall CheckBox1Click(TObject *Sender);
     void __fastcall Timer1Timer(TObject *Sender);
@@ -30,8 +30,8 @@ __published:	// IDE-managed Components
     void __fastcall Edit2KeyDown(TObject *Sender, WORD &Key,
           TShiftState Shift);
     void __fastcall Button1Click(TObject *Sender);
-        void __fastcall Button2Click(TObject *Sender);
-        void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
+    void __fastcall Button2Click(TObject *Sender);
+    void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
 private:	// User declarations
 public:		// User declarations
     __fastcall TForm1(TComponent* Owner);

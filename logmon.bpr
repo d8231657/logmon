@@ -5,15 +5,15 @@
     <VERSION value="BCB.06.00"/>
     <PROJECT value="logmon.exe"/>
     <OBJFILES value="logmon.obj Unit1.obj"/>
-    <RESFILES value="logmon.res"/>
+    <RESFILES value=""/>
     <IDLFILES value=""/>
     <IDLGENFILES value=""/>
     <DEFFILE value=""/>
     <RESDEPEN value="$(RESFILES) Unit1.dfm"/>
     <LIBFILES value=""/>
-    <LIBRARIES value="rtl.lib vcl.lib"/>
-    <SPARELIBS value="vcl.lib rtl.lib"/>
-    <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi bcbsmp.bpi dbrtl.bpi adortl.bpi vcldb.bpi 
+    <LIBRARIES value="Vcl50.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib Vcl50.lib"/>
+    <PACKAGES value="vcl.bpi vclx.bpi bcbsmp.bpi dbrtl.bpi adortl.bpi vcldb.bpi 
       qrpt.bpi bdertl.bpi vcldbx.bpi dsnap.bpi cds.bpi bdecds.bpi teeui.bpi 
       teedb.bpi tee.bpi teeqr.bpi ibxpress.bpi visualclx.bpi visualdbclx.bpi 
       vclie.bpi xmlrtl.bpi inet.bpi inetdbbde.bpi inetdbxpress.bpi inetdb.bpi 
@@ -32,7 +32,6 @@
     <INCLUDEPATH value="..;logmon;$(BCB)\include;$(BCB)\include\vcl;&quot;C:\Program Files\madCollection\madBasic\BCB6&quot;;&quot;C:\Program Files\madCollection\madDisAsm\BCB6&quot;;&quot;C:\Program Files\madCollection\madExcept\BCB6&quot;;&quot;C:\Program Files\madCollection\madRemote\BCB6&quot;;&quot;C:\Program Files\madCollection\madKernel\BCB6&quot;;&quot;C:\Program Files\madCollection\madCodeHook\BCB6&quot;;&quot;C:\Program Files\madCollection\madSecurity\BCB6&quot;;&quot;C:\Program Files\madCollection\madShell\BCB6&quot;"/>
     <LIBPATH value="..;logmon;$(BCB)\Projects\Lib;D:\indy\C6;$(BCB)\lib\obj;$(BCB)\lib;&quot;C:\Program Files\madCollection\madBasic\BCB6&quot;;&quot;C:\Program Files\madCollection\madDisAsm\BCB6&quot;;&quot;C:\Program Files\madCollection\madExcept\BCB6&quot;;&quot;C:\Program Files\madCollection\madRemote\BCB6&quot;;&quot;C:\Program Files\madCollection\madKernel\BCB6&quot;;&quot;C:\Program Files\madCollection\madCodeHook\BCB6&quot;;&quot;C:\Program Files\madCollection\madSecurity\BCB6&quot;;&quot;C:\Program Files\madCollection\madShell\BCB6&quot;"/>
     <WARNINGS value="-w-par"/>
-    <OTHERFILES value=""/>
   </MACROS>
   <OPTIONS>
     <IDLCFLAGS value="-I.. -Ilogmon -I$(BCB)\include -I$(BCB)\include\vcl 
@@ -51,22 +50,12 @@
     <RFLAGS value=""/>
     <AFLAGS value="/mx /w2 /zd"/>
     <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
-    <OTHERFILES value=""/>
   </OPTIONS>
   <LINKER>
     <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
     <ALLRES value="$(RESFILES)"/>
     <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
-    <OTHERFILES value=""/>
   </LINKER>
-  <FILELIST>
-      <FILE FILENAME="logmon.res" FORMNAME="" UNITNAME="logmon.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
-      <FILE FILENAME="logmon.cpp" FORMNAME="" UNITNAME="logmon" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
-      <FILE FILENAME="Unit1.cpp" FORMNAME="Form1" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
-  </FILELIST>
-  <BUILDTOOLS>
-  </BUILDTOOLS>
-
   <IDEOPTIONS>
 [Version Info]
 IncludeVerInfo=0

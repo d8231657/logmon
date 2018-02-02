@@ -68,10 +68,10 @@ void __fastcall TForm1::FormShow(TObject *Sender)
         sl.LoadFromFile("logmon.tmp");
         if(sl.Count>=4)
         {
-            Edit1->Text=sl[0];
-            Edit2->Text=sl[1];
-            Memo1->Font->Name=sl[2];
-            Memo1->Font->Size=sl[3].ToInt();
+            Edit1->Text=sl.Strings[0];
+            Edit2->Text=sl.Strings[1];
+            Memo1->Font->Name=sl.Strings[2];
+            Memo1->Font->Size=sl.Strings[3].ToInt();
         }
         delete &sl;
     }
