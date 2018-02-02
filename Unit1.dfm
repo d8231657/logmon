@@ -53,7 +53,7 @@ object Form1: TForm1
     Anchors = [akLeft, akTop, akRight, akBottom]
     Font.Charset = CHINESEBIG5_CHARSET
     Font.Color = clWindowText
-    Font.Height = -32
+    Font.Height = -16
     Font.Name = 'Fixedsys'
     Font.Style = []
     ParentFont = False
@@ -65,6 +65,7 @@ object Form1: TForm1
     Top = 8
     Width = 75
     Height = 25
+    Anchors = [akTop, akRight]
     Caption = '§R°£ÀÉ®×'
     TabOrder = 4
     OnClick = Button1Click
@@ -74,6 +75,7 @@ object Form1: TForm1
     Top = 8
     Width = 25
     Height = 25
+    Anchors = [akTop, akRight]
     Caption = 'A'
     TabOrder = 5
     OnClick = Button2Click
