@@ -1,0 +1,5 @@
+*.~*
+*.obj
+logmon.exe
+logmon.tds
+logmon.tmp
