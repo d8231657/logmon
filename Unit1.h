@@ -22,6 +22,8 @@ __published:	// IDE-managed Components
     TButton *Button1;
     TFontDialog *FontDialog1;
     TButton *Button2;
+    TOpenDialog *OpenDialog1;
+    TButton *Button3;
     void __fastcall Edit1Change(TObject *Sender);
     void __fastcall CheckBox1Click(TObject *Sender);
     void __fastcall Timer1Timer(TObject *Sender);
@@ -32,6 +34,7 @@ __published:	// IDE-managed Components
     void __fastcall Button1Click(TObject *Sender);
     void __fastcall Button2Click(TObject *Sender);
     void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
+    void __fastcall Button3Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
     __fastcall TForm1(TComponent* Owner);

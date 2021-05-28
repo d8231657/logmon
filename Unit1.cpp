@@ -113,3 +113,12 @@ void __fastcall TForm1::FormClose(TObject *Sender, TCloseAction &Action)
 }
 //---------------------------------------------------------------------------
 
+void __fastcall TForm1::Button3Click(TObject *Sender)
+{
+    if(OpenDialog1->Execute())
+    {
+        Edit1->Text=OpenDialog1->FileName;
+    }
+}
+//---------------------------------------------------------------------------
+
